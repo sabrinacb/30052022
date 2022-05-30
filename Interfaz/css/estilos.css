@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:90%;
+
+}
+
+h1 {
+   
+    /*centrar el texto*/
+    font-family: 'Roboto Slab', serif;
+    /*tipografía*/
+    font-weight: 700;
+    /*peso de fuente*/
+    
+    color:#0a2ff1;
+    /*color tipográfico*/
+    font-size: 6em;
+
+    /*    1em == medida base == 16px
+          6em == 6*16px
+
+          en nuestro proyecto es un 90% de 16px
+
+
+    */
+
+
+
+}
+
+a{ 
+
+font-size: 1.5em;
+/*   1.5 x (90% de 16px)    */
+text-decoration:none;
+/*le saco el subrayado*/
+text-transform:uppercase;
+margin-right: 10px;
+
+
+}
+
+a:hover { font-weight:700;}
+h2,a  {color: #04146c;}
+
+h2 { 
+    
+    font-size:2em;
+    font-weight: 400;
+
+}
+
+header, nav { width: 100%;}
+/*ambos elementos van a tener un ancho del 100%*/
+img {width: 100%;}
+header { text-align:center;}
+/*todo lo que está anidado en el header, se centra*/
+nav img { width:5%; }
+nav { display:flex;}
+nav div { margin-left: auto;}
+/*padre hijo { propiedad:valor;}*(
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+    body {
+          font-size:50%;
+    
+    }
+
+
+}
+
+
